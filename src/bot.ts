@@ -44,8 +44,8 @@ const main = async () => {
     checkPair('WBNB', 'BUSD', pWBNBBUSDContract, aWBNBBUSDContract);
 }
 
-// Run the main function every 5 seconds
-const timeIntevalSeconds = 5;
+// Run the main function every 3 seconds
+const timeIntevalSeconds = 3;
 setInterval(() => { main() }, timeIntevalSeconds*1000);
 
 
