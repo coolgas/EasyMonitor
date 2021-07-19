@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "@gametoken/apeswap-sdk": "^1.0.0",
+    "@pancakeswap/sdk": "^2.3.2",
+    "ethers": "^5.4.1",
+    "web3": "^1.4.0"
+  }
+}
