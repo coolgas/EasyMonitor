@@ -66,5 +66,5 @@ You can start the program by typing in the terminal
 npx ts-node bot.ts
 ```
 Once the program starts running, you should see the prices updating automatically.
-
+>![](./image/image.png)
 
