@@ -57,7 +57,7 @@ const aWBNBBUSDContract = apeGenerator.getPairContract();
 
 At the end, by simply calling
 ```typescript
-checkPair('WBNB', 'BUSD', pWBNBBUSDContract, aWBNBBUSDContract);
+EasyMonitor.checkPair('WBNB', 'BUSD', pWBNBBUSDContract, aWBNBBUSDContract);
 ```
 You can constantly monitor the prices on both platforms. Notice here that make sure you enter the token symbols in correct order.
 
