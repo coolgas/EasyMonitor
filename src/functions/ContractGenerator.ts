@@ -3,6 +3,8 @@ import type { AbiItem } from "../../node_modules/web3-utils/types/index"
 
 const web3 = new Web3("https://bsc-dataseed1.binance.org:443");
 
+/// <reference path="TokenInfo.ts" />
+
 export class ContractGenerator {
 
     readonly abi: AbiItem[];
@@ -29,5 +31,4 @@ export class ContractGenerator {
         )
         return contract;
     }
-
 }
